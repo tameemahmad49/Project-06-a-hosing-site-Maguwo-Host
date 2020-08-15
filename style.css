@@ -1,0 +1,731 @@
+img {
+    width: 100%;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+ol,
+ul,
+li,
+figcaption,
+textarea,
+input {
+    font-family: Tahoma, arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header css */
+
+.headerSection {
+}
+
+.allhead {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18px;
+}
+
+.logoHead {
+    padding: 30px;
+}
+
+.logoHead img {
+    width: 230px;
+}
+
+.menuHead {}
+
+.menuHead ul {
+    padding: 0;
+}
+
+.menuHead ul li {
+    display: inline-block;
+    padding: 15px;
+    padding-top: 44px;
+}
+
+.menuHead ul li a {
+    color: black;
+    transition: .3s;
+}
+
+.HeadRight {
+    padding: 28px;
+    border-left: 1px solid #0000001c;
+}
+
+.HeadRight p {
+    font-size: 13px;
+}
+
+.btnHead {
+    margin-top: -19px;
+}
+
+.btnHead button {
+    background: #ffe13e;
+    color: black;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+    margin-right: 11px;
+    transition: .3s;
+}
+
+.btnHead button a {
+    color: black;
+}
+
+.btnHead span {
+    font-size: 20px;
+    border-left: 1px solid #00000045;
+    color: transparent;
+    margin-top: 18px;
+    display: inline-block;
+}
+
+.menuHead ul li a:active {
+    color: #ffe13e;
+}
+
+a:hover {
+    color: #ffe13e;
+}
+
+.menuHead ul li a:hover {
+    color: #ffe13e;
+}
+
+.btnHead button:last-child {
+    background: none;
+}
+
+.btnHead button:last-child:hover {
+    background: #ffe13e;
+}
+
+.menuHead ul li:nth-child(1) a {
+    color: #ffe13e;
+}
+
+/* banner css */
+
+.bannerSection {
+    background: url(https://developerjillur.xyz/mypractice/maguwohost/img/slider_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 860px;
+    text-align: center;
+    background-color: #00000059;
+    background-blend-mode: color;
+    background-attachment: fixed;
+}
+
+.allBanner {}
+
+.allBanner h2 {
+    padding-top: 250px;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+}
+
+.allBanner h3 {
+    color: white;
+    font-size: 32px;
+    padding: 16px;
+    margin: 0;
+}
+
+.allBanner img {
+    width: 210px;
+    padding: 45px;
+}
+
+.inputDivBAnner {
+    background: #ffffff8a;
+    width: 578px;
+    margin: auto;
+    padding: 19px;
+}
+
+.inputDivBAnner input {
+    padding: 10px 40px;
+    border: none;
+    color: #000000d1;
+    font-size: 19px;
+}
+
+.inputDivBAnner select {
+    border: none;
+    padding: 9px 5px;
+    margin-left: -4px;
+    background: #ffe13e;
+    font-size: 19px;
+}
+
+.inputDivBAnner select option {}
+
+.inputDivBAnner a {
+    display: block;
+    background: #ffe13e;
+    width: 160px;
+    margin: auto;
+    color: white;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    border-left: 2px solid white;
+}
+
+/* service css */
+
+.serviceSection {
+    width: 99.3%;
+}
+
+.leftService {
+    background: #202242;
+    text-align: center;
+    padding: 50px 156px;
+    padding-bottom: 60px;
+}
+
+.leftService img {
+    width: 155px;
+}
+
+.leftService h2 {
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.leftService p {
+    color: white;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.leftService a {
+    border: 1px solid white;
+    padding: 2px 21px;
+    color: white;
+    font-size: 19px;
+    margin-top: 31px;
+    display: inline-block;
+}
+
+.rightService {
+    background: #ffe13e;
+    text-align: center;
+    padding: 50px 156px;
+    padding-bottom: 60px;
+}
+
+.rightService h1 {
+    font-weight: bold;
+    color: #202242;
+    font-size: 130px;
+    margin: 0;
+}
+
+.rightService h2 {
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.rightService p {
+    color: white;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.rightService a {
+    border: 1px solid white;
+    padding: 2px 21px;
+    color: white;
+    font-size: 19px;
+    margin-top: 31px;
+    display: inline-block;
+}
+
+/* another service css */
+
+.anotherService {
+    background: #fbf8f1 url(https://developerjillur.xyz/mypractice/maguwohost/img/features_shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 50px;
+}
+
+.ASheader {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.ASheader h2 {
+    font-weight: bold;
+    color: #202242;
+    font-size: 44px;
+}
+
+.ASheader h4 {
+    color: #202242;
+    margin-top: 29px;
+    margin-bottom: 25px;
+}
+
+.allServicesAnother {
+    display: flex;
+    text-align: center;
+    width: 1161px;
+    margin: auto;
+}
+
+.singleASDiv {
+    padding: 11px;
+}
+
+.singleASDiv img {
+    width: 120px;
+}
+
+.singleASDiv hr {
+    width: 65px;
+    margin: auto;
+    padding: 1px;
+    margin-top: 19px;
+    background: black;
+}
+
+.singleASDiv h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #edc92c;
+    margin: 19px 0;
+}
+
+.singleASDiv p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #202242;
+}
+
+/* team css */
+
+.teamSection {
+    padding-bottom: 100px;
+}
+
+.upperTeam {
+    display: flex;
+    padding: 51px;
+    padding-top: 75px;
+}
+
+.leftUpperTeam {}
+
+.leftUpperTeam h2 {
+    color: #202242;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.leftUpperTeam p {
+    color: #00000070;
+    width: 96%;
+    padding-top: 10px;
+}
+
+.rightUpperTeam {
+    display: flex;
+}
+
+.rightUpperTeam img {
+    width: 173px;
+    margin-left: 20px;
+    height: 75%;
+}
+
+.downTeam {
+    display: flex;
+    padding: 42px;
+    padding-top: 0;
+}
+
+.singleDT {
+    background: #0000000a;
+    padding: 23px;
+    margin: 10px;
+    position: relative;
+}
+
+.singleDT p {
+    font-size: 15px;
+    color: #00000087;
+    line-height: 27px;
+}
+
+.singleDT span {
+    color: #000000b0;
+}
+
+.singleDT img {
+    width: 95px;
+    position: absolute;
+    top: 144px;
+    right: 23px;
+}
+
+/* price css */
+
+.priceSection {
+    background: #202242;
+    padding-bottom: 24px;
+}
+
+.allPrice {
+    display: flex;
+    justify-content: space-between;
+    padding: 52px;
+}
+
+.leftPrice {
+    color: white;
+}
+
+.leftPrice h2 {
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.leftPrice h4 {
+    font-size: 19px;
+    color: #ffffff73;
+    padding-top: 10px;
+}
+
+.rightPrice {}
+
+.rightPrice a {
+    border: 2px solid white;
+    padding: 15px 14px;
+    margin-left: -290px;
+    background: #ffe13e;
+    font-size: 18px;
+    color: #202242;
+    position: relative;
+    top: 40px;
+}
+
+/* footer css */
+
+.footerSection {
+    background: #363855;
+    height: 700px;
+    padding-top: 90px;
+    overflow: hidden;
+}
+
+.allmapFooter {
+    background: url(https://developerjillur.xyz/mypractice/maguwohost/img/footer_bg.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.locationDivF {
+    position: relative;
+    top: 237px;
+    right: -621px;
+}
+
+.locationDivF a {}
+
+.locationDivF a span {
+    float: left;
+}
+
+.locationDivF a span i {
+    color: #ffe13e;
+    font-size: 41px;
+}
+
+.locationDivF p {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    margin-left: 40px;
+}
+
+.listFooter {
+    text-align: right;
+    width: 105px;
+    float: right;
+    margin-top: -50px;
+}
+
+.listFooter h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.listFooter ul {
+    margin-top: 35px;
+}
+
+.listFooter ul li {
+    list-style: none;
+    line-height: 13px;
+}
+
+.listFooter ul li a {
+    color: white;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.listFooter ul hr {}
+
+.iconFooter {
+    margin-top: 39px;
+}
+
+.iconFooter a {}
+
+.iconFooter a span {}
+
+.iconFooter a span i {
+    color: #ffe13e;
+    font-size: 21px;
+    margin-left: 9px;
+}
+
+.backtoTop {}
+
+.backtoTop a {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+}
+
+.mainFooter {
+    text-align: center;
+    margin-top: 420px;
+}
+
+.mainFooter img {
+    width: 50px;
+}
+
+.mainFooter p {
+    color: white;
+    font-size: 14px;
+    padding: 6px;
+}
+
+
+
+
+
+.listFooter ul li a:hover {
+    color: #ffe13e;
+  }
+
+
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
